@@ -468,6 +468,10 @@ internal fun handleShortcut(
             PlayerState.togglePlay()
             true
         }
+        keyCodeMatches(keyCode, Key.H, AwtKeyEvent.VK_H) -> {
+            PlayerState.currentTrack?.let { PlayerState.toggleLike(it) }
+            true
+        }
 
         keyCodeMatches(keyCode, Key.DirectionRight, AwtKeyEvent.VK_RIGHT) -> {
             PlayerState.seekRelative(Settings.shared.seekDurationSeconds * 1000L)

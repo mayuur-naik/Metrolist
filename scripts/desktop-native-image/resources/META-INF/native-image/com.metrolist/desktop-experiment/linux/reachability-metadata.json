@@ -682,6 +682,33 @@
       ]
     },
     {
+      "type": "org.freedesktop.dbus.connections.impl.DBusConnection",
+      "allPublicMethods": true,
+      "allDeclaredMethods": true
+    },
+    {
+      "type": "org.freedesktop.dbus.connections.AbstractConnection",
+      "allPublicMethods": true,
+      "allDeclaredMethods": true
+    },
+    {
+      "type": "io.github.vinceglb.filekit.dialogs.platform.xdg.FileChooserDbusInterface",
+      "allDeclaredMethods": true
+    },
+    {
+      "type": {
+        "proxy": [
+          "io.github.vinceglb.filekit.dialogs.platform.xdg.FileChooserDbusInterface"
+        ]
+      }
+    },
+    {
+      "type": "io.github.vinceglb.filekit.dialogs.platform.xdg.Pair",
+      "allDeclaredFields": true,
+      "allDeclaredMethods": true,
+      "allDeclaredConstructors": true
+    },
+    {
       "type": "sun.awt.shell.ShellFolderManager",
       "methods": [
         {
